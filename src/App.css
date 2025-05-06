@@ -52,18 +52,18 @@ dialog {
   float: right;
   width: 65%; 
   overflow: hidden;
-  border: 2px solid dodgerblue;
-  border-radius: 9px 0 0 9px;
+ border: none;
+  border-left: 1px solid dodgerblue;
   transform: translateX(55%) translateY(-15%);
   animation: slide 0.5s ease-in forwards;
 }
 
 @keyframes slide {
   from {
-    transform: translateX(565%);
+    transform: translateX(165%);
   }
   to {
-    transform: translateX(55%);
+    transform: translateX(54%);
   }
 }
 
@@ -80,13 +80,39 @@ dialog h3 {
   transform: rotateZ(45deg);
   background: transparent;
   border: none;
+  padding: 0%;
+  margin: 0%;
   font-size: 2.9em;
   color: orange;
+  outline: none;
+  margin-right: 5%;
+  cursor: pointer;
 }
 
 .nav-top-wrapper {
   display: flex;
   align-items: center;
+  gap: 3.2rem;
   background-color: #04344d;
   padding: 1% 2.5% ;
+  padding-left: 5.5% !important;
+}
+
+.nav-links {
+  width: 100%;
+  padding: 2%;
+  font-size: 1.2rem;
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  transform: translateY(125%);
+}
+
+.nav-links:hover {
+  background-color: #002233 !important;
 }
