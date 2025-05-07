@@ -1,13 +1,13 @@
 import React from 'react'
 import "./App.css"
 import SuperHeader from './SuperComponents/SuperHeader'
+import HeaderDesktop from './Components/HeaderDesktop'
 
 function App() {
-  console.log(innerWidth)
   return (
-  <SuperHeader />
+<SuperHeader />
   )
-}
+} 
 
 export default App
 

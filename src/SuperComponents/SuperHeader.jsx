@@ -1,5 +1,6 @@
 import React from 'react'
 import HeaderMobile from '../Components/HeaderMobile'
+import HeaderDesktop from '../Components/HeaderDesktop'
 import { useState, useEffect } from 'react';
 
 export default function SuperHeader() {
@@ -11,5 +12,5 @@ export default function SuperHeader() {
     return () => window.removeEventListener('resize', handleResize);
   }, [width]);
 
-  return width <= 500 ? <HeaderMobile /> : '';
+  return width <= 620 ? <HeaderMobile /> : <HeaderDesktop />;
 }
