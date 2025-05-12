@@ -1,10 +1,13 @@
 import React from 'react'
 import "./StyledComponents/HeaderMobile.css"
-
+ const img = "./Components/images/logo.jpg"
+ 
 const HeaderMobile = () => {
+ 
   return (
    
     <div className="header-mobile">
+        <img src={img} alt="logo" className='logo'/>
          <h2><b className='orangetext'>Port</b>folio</h2>
         <div className='hamburger' onClick={() => document.getElementById('NavBar').showModal()}>
             <span></span>
