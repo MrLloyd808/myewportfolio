@@ -1,20 +1,22 @@
 import React from 'react'
-import url from "./assets/image2.jpg"
+import url from "./assets/image3.jpg"
 export default function AboutMobile() {
   return (
 
     <section className='about-mobile'>
-      <h3 className='left'>HELLO <b className='orange-text'>THERE!</b></h3>
-      <p className='left'>
-        I am a WEB <b className='orange-text'>DEVELOPER</b>.</p>
-        <p>
-        <br/>
-        Welcome to my <b className='orange-text'>Portfolio. <br/></b> 
-        I am a self taught Programmer with a passion to learn and create. 
-        Make youreself at home. Go through the rest of the Portfolio to learn more about myself.
-      </p>
+      <h3 className='left hero'>HELLO <b className='orange-text underline'>THERE!</b></h3>
+      
+        <h4>
+          <b>
+        </b> 
+        I am <b className='orange-text underline'>SAINT</b> LLOYD.<br />
+         Welcome to my <b className='orange-text underline'>Portfolio.</b>
+      </h4><p className='left'>
+        I am a WEB <b className='orange-text underline'>DEVELOPER</b>.</p>
+      <br />
+    
       <img src={url} alt="About Me" className='my-img' /> 
-        
+    <br />
       <hr/>
     </section>
 
