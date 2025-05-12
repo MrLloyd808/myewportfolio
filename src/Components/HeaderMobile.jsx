@@ -1,7 +1,7 @@
 import React from 'react'
 import "./StyledComponents/HeaderMobile.css"
- const img = "./Components/images/logo.jpg"
- 
+ import img from "./images/image.png"
+
 const HeaderMobile = () => {
  
   return (

@@ -1,10 +1,11 @@
 .header-mobile {
     display: flex;
     justify-content: space-between;
-    background: #04344d;
-    padding: 2.2%;
-    position: fixed;
+    align-items: center;
+    position: sticky;
     width: 100%;
+    font-size: .9rem;
+    z-index: 999;
   }
   
   .hamburger {
@@ -14,7 +15,7 @@
     background-color: transparent;
     border: none;
     position: relative;
-    transform: translateY(20%);
+    transform: translateY(-5%);
   } 
   .hamburger span {
     display: block;
@@ -110,4 +111,19 @@
   .nav-links:hover {
     background-color: #002233 !important;
   }
+
+  .logo {
+    min-height: 55px;
+    min-width: 50px;
+    width: 55px;
+    height: 55px;
+    padding: 0;
+    margin: 0;
+    transform: translateY(10%);
+    cursor: pointer;
+  }
   
+  .about-mobile {
+    margin: 5% 2.5%;
+    font-size: 1.5rem;
+  }

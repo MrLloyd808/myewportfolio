@@ -1,11 +1,15 @@
 import React from 'react'
 import "./App.css"
 import SuperHeader from './SuperComponents/SuperHeader'
-import HeaderDesktop from './Components/HeaderDesktop'
+import AboutMobile from './Components/AboutMobile'
 
 function App() {
   return (
-<SuperHeader />
+    <>
+    <SuperHeader />
+    
+  <AboutMobile />
+  </>
   )
 } 
 
