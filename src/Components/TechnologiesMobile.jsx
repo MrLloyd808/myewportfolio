@@ -1,15 +1,12 @@
 import React from 'react'
-
+import img1 from '../Components/images/git.jpg'
 
 export default function Technologies() {
   return (
     <section className='technologies'>
-         <div className='box-wrapper'>
-            <img src={} alt='box'/>
+         <div>
+            
          </div>
-         <div className='box-wrapper'></div>
-         <div className='box-wrapper'></div>
-         <div className='box-wrapper'></div>
     </section>
   )
 }
