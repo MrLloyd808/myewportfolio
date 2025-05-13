@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     position: sticky;
+    top: 0;
+    background-color: #002233;
     width: 100%;
     font-size: .9rem;
     z-index: 999;
@@ -148,11 +150,7 @@
     margin: 2.3% 0;
   }
 
-  hr {
-    background: #04344d;
-  }
-
   .underline {
     text-decoration: underline;
-    text-decoration-color: linear-gradient(to right, yellow, #0072ff);
+
   }

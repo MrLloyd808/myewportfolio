@@ -46,3 +46,42 @@ h2 {
     transform: translateY(13%);
     color: dodgerblue;
 }
+
+.hero {
+  text-align: center;
+}
+
+hr {
+  border: none;
+  height: 1.2px;
+  background-color: rgb(8, 69, 131) !important;
+}
+
+.box {
+  width: 68%;
+  background-color: #04344d;
+  margin: 2% 0;
+  margin-left: 17.5%;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 12px #111;
+  color: #111 !important;
+  text-wrap: wrap;
+}
+
+.box img {
+  margin-top: 5%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.box p {
+  padding: 0 8.5%;
+  padding-bottom: 5.5%;
+}
+
+ .box p {
+  color: #0a0909;
+  font-weight: 800;
+}

@@ -7,6 +7,8 @@ import Technologies from './Components/TechnologiesMobile'
 function App() {
   return (
     <>
+    <SuperHeader />
+    <AboutMobile />
     <Technologies />
    </>
   )
