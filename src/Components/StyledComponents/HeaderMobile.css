@@ -90,6 +90,11 @@
     padding: 5px;
   }
 
+  .pointer2 {
+    cursor: pointer;
+    font-size: 2.3rem;
+  }
+
   .hire-btn:hover {
     background-color: rgb(246, 10, 96) !important;
     color: #fff !important;
@@ -110,12 +115,23 @@
     }
   }
 
-  
+  .flex-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+    gap: 5%;
+    font-size: 2.1rem !important;
+  }
+
+ .pointer {
+  cursor: pointer;
+ }
 
   .last {
     margin-top: 2% !important;
   }
-  
+
 .lastt {
     margin-top: 4% !important;
   }
