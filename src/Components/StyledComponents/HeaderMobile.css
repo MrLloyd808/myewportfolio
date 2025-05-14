@@ -94,4 +94,17 @@
     color: #fff !important;
     transition: 0.1s ease !important;
     box-shadow: none;
+    animation: scale 0.3s ease;
+  }
+
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
   }

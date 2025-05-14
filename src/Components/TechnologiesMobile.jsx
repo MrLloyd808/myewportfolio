@@ -8,39 +8,68 @@ import img5 from '../Components/images/react.svg'
 export default function Technologies() {
   return (
     <>
-    <section className='technologies'> 
-    <h3 className='hero'>My Personal <b className='orange-text'>Skills</b></h3>
-
+    <section className='tech-container'> 
+    <h3 className='hero'>Personal <b className='orange-text'>Skills</b></h3>
+    <hr className='hr'/>
+    <div className="box-wrapper">
          <div className='box'>
            
-              <img src={img1} alt="Git" className='box-image' width={150}/>   
+              <img src={img1} alt="Git" className='box-image' width={100}/>   
               <h3 className='hero'>Git</h3>
-              <b><p>Version control system for tracking changes in code. and github which makes collaboration easier.</p></b>
+             
          </div>
          <div className='box'>
 
-              <img src={img2} alt="CSS" className='box-image' height={170} width={150}/>
+              <img src={img2} alt="CSS" className='box-image' width={100}/>
               <h3 className='hero'>CSS</h3>
-              <b><p>Stylesheet language for styling the presentation of a document written in HTML.</p></b>
+              
          </div>
          <div className='box'>
 
-              <img src={img3} alt="CSS" className='box-image' height={170} width={150}/>
+              <img src={img3} alt="CSS" className='box-image' width={100}/>
               <h3 className='hero'>HTML</h3>
-              <b><p>Markup language for structuring web content.</p></b>
+              
          </div>
           <div className='box'>
 
-              <img src={img4} alt="JavaScript" className='box-image' height={170} width={150}/>
+              <img src={img4} alt="JavaScript" className='box-image' width={100}/>
               <h3 className='hero'>JavaScript</h3>
-              <b><p>Programming language for creating dynamic and interactive web content.</p></b>
+              
          </div>
           <div className='box'>
 
-              <img src={img5} alt="CSS" className='box-image' height={170} width={150}/>
+              <img src={img5} alt="CSS" className='box-image' width={100}/>
               <h3 className='hero'>React</h3>
-              <b><p>JavaScript library for building user interfaces.</p></b>
+              
          </div>
+         </div>
+
+         <hr className='dev'/>
+
+      <div className='flex'>
+       <h3 className='hero'>Status <b className='orange-text'>Progress</b></h3>
+       <hr />
+       <hr className='hr'/>
+        <br />
+      <h3>HTML</h3>
+        <progress value="80" max="100" className='progress' />
+      </div>
+      <div className='flex'>
+      <h3>Git</h3>
+        <progress value="30" max="100" className='progress' />
+      </div>
+      <div className='flex'>
+      <h3>CSS</h3>
+        <progress value="65.0" max="100" className='progress' />
+      </div>
+      <div className='flex'>
+      <h3>JavaScript</h3>
+        <progress value="58" max="100" className='progress' />
+      </div>
+      <div className='flex'>
+      <h3>React</h3>
+        <progress value="30" max="100" className='progress' />
+      </div>
     </section>
     <hr /></>
   )

@@ -1,8 +1,8 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.87);
+  color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,7 +14,7 @@
   box-sizing:  border-box;
   padding: 0;
   margin: 0;
-  color: rgba(255, 255, 255, 0.87);
+  color: white;
   overflow-x: hidden;
   ::-webkit-scrollbar {
     display: none;
