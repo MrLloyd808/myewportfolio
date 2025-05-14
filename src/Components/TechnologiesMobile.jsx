@@ -71,6 +71,6 @@ export default function Technologies() {
         <progress value="30" max="100" className='progress' />
       </div>
     </section>
-    <hr /></>
+    <hr className='last lastt'/></>
   )
 }

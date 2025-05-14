@@ -125,7 +125,9 @@ progress {
  border-radius: 10px;
  height: 10px;
  width: 280px;
-}
+ transition: value 4s ease-in-out !important;
+} 
+
 
 progress::-moz-progress-bar {
   background-color: rgb(246, 10, 96);
@@ -150,6 +152,7 @@ progress::-webkit-progress-value {
 
 .dev {
   margin: 5% 0;
+  margin-bottom: 3%;
   width: 100%;
 }
 
@@ -173,7 +176,13 @@ progress::-webkit-progress-value {
 }
 
 .about-desktop img {
-  width: 290px;
+  width: 320px;
   height: auto;
   margin: 0%;
+}
+
+.devy2 {
+  height: 3px !important;
+  background-color: #00a6ff !important;
+  border-radius: 10px;
 }
