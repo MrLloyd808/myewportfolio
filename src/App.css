@@ -1,10 +1,15 @@
 #root {
-  max-width: 900px;
+  max-width: 800px;
   min-height: 100vh;
   margin: 0;
-  padding: 0;
+  padding: 0 1.5% !important;
   padding: 0;
   background-color: #002233 !important;
+  box-shadow: 0 0 12px #111;
+}
+
+body {
+  background-color: #002233;
 }
 
 .header-desktop {
@@ -19,8 +24,7 @@
 #navlinks {
     border: none;
     background: transparen;
-    font-weight: bold;
-    font-size: .9em;
+    font-weight: 400 !important;
     cursor: pointer;
     margin: 0;
     padding: 2.2%;
@@ -68,11 +72,14 @@ hr {
 }
 
 .desktop {
-  font-size: 1.5rem !important;
+  font-size: .9rem !important;
   margin-bottom: 4%;
 }
+
 .box {
   width: 200px;
+  min-width: 250px;
+  min-height: 220px;
   background-color: #012639;
   border-radius: 8px;
   display: grid;
@@ -86,6 +93,9 @@ hr {
 
 .box img {
   margin-top: 5%;
+  min-width: 100px !important;
+  width: 120px;
+  min-height: auto;
   height: auto;
   border-radius: 10px;
 }
@@ -99,8 +109,6 @@ hr {
   color: #0a0909;
   font-weight: 800;
 }
-
-
 
 .hr {
   width: 65px;
@@ -127,7 +135,6 @@ progress {
  width: 280px;
  transition: value 4s ease-in-out !important;
 } 
-
 
 progress::-moz-progress-bar {
   background-color: rgb(246, 10, 96);
@@ -184,5 +191,5 @@ progress::-webkit-progress-value {
 .devy2 {
   height: 3px !important;
   background-color: #00a6ff !important;
-  border-radius: 10px;
+  border-radius: 10px
 }

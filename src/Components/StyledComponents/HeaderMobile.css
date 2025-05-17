@@ -8,7 +8,7 @@
     width: 100%;
     font-size: 1.25rem;
     z-index: 999;
-    padding: 0 1.8%;
+    padding: 1.5% 5%;
     overflow: hidden !important;
   }
 
@@ -22,12 +22,11 @@
   .nav-links {
     border: none;
     background: transparent;
-    font-weight: bold;
     cursor: pointer;
     margin: 0;
     padding: 1%;
     transform: translateY(5%);
-    font-size: 1.1rem;
+    font-size: 1rem;
     background: transparent;
     color: #fff !important;
   }
@@ -42,27 +41,23 @@
     background-color: #002233 !important;
     box-shadow: 0 2px 0 dodgerblue;
   }
-
   .logo {
-    min-height: 55px;
-    min-width: 50px;
-    width: 55px;
-    height: 55px;
-    padding: 0;
-    margin: 0;
-    transform: translateY(5%);
-    cursor: pointer;
+    display: none;
   }
+
   
   .about-mobile {
     margin-top: 1%;
     padding: 2.5%;
-    font-size: 1.5rem;
+    font-size: 1.34rem;
   }
 
   .my-img {
-    width: 350px;
+    min-width: 130px !important;
+    width: 90%;
     height: 350px;
+    max-height: auto;
+    max-width: 360px;
     border-radius: 10px;
     margin-top: 9%;
     display: block;
@@ -138,4 +133,8 @@
   footer{
     padding: 3%;
     text-align: center;
+  }
+
+  #portfolio {
+    font-size: 1.5rem;
   }
